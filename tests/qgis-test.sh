@@ -5,6 +5,7 @@ if [ ! -f /cre/versions.txt ]; then
     exit 1
 fi
 
+cat /cre/versions.txt
 
 sleep 2
 

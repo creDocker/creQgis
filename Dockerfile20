@@ -1,15 +1,15 @@
 # Adapted from https://github.com/qgis/QGIS-Web-Client
 # and https://github.com/opengisch/QGIS-Web-Client
-FROM tamboraorg/creubuntu:2016.0
+FROM tamboraorg/creubuntu:0.2020
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
-ARG BUILD_YEAR=2016
+ARG BUILD_YEAR=2020
 ARG BUILD_MONTH=0
-ARG BUILD_TAG=2016.0
+ARG BUILD_TAG=0.2020
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV INITRD No
-ENV QGIS_VERSION 2.14
+ENV QGIS_VERSION 3.4.11
 
 LABEL Name="QGIS for CRE" \
       CRE=$CRE_VERSION \ 
@@ -17,7 +17,7 @@ LABEL Name="QGIS for CRE" \
       Month=$BUILD_MONTH \
       Version=$QGIS_VERSION \
       OS="Ubuntu:$UBUNTU_VERSION" \
-      Build_=$BUILD_TAG 
+      Build_=$BUILD_TAG
 
 #RUN add-apt-repository ppa:ubuntugis/ppa
 ##RUN echo "deb http://qgis.org/debian xenial main" >> /etc/apt/sources.list
