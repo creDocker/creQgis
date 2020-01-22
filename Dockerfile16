@@ -39,7 +39,7 @@ EXPOSE 9993
 
 #USER postgres
 
-#ENTRYPOINT ["/cre/postgres-entrypoint.sh"]
+#ENTRYPOINT ["/cre/qgis-entrypoint.sh"]
 
 CMD ["shoreman", "/cre/qgis-procfile"]
 
