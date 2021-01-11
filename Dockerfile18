@@ -1,11 +1,11 @@
 # Adapted from https://github.com/qgis/QGIS-Web-Client
 # and https://github.com/opengisch/QGIS-Web-Client
-FROM tamboraorg/creubuntu:latest
+FROM tamboraorg/creubuntu:2018.0
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
 ARG BUILD_YEAR=2018
 ARG BUILD_MONTH=0
-ARG BUILD_TAG=latest
+ARG BUILD_TAG=2018.0
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV INITRD No
