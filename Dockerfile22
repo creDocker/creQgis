@@ -10,6 +10,7 @@ ARG BUILD_TAG=0.2022
 ENV DEBIAN_FRONTEND noninteractive
 ENV INITRD No
 ENV QGIS_VERSION 3.4.11
+#3.16
 
 LABEL Name="QGIS for CRE" \
       CRE=$CRE_VERSION \ 
@@ -32,7 +33,8 @@ RUN apt-get install -y -q --no-install-recommends spawn-fcgi
 
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t creQgis \t $QGIS_VERSION" >> /cre/versions.txt  
+#    echo "$(date +'%F %R') \t creQgis \t $QGIS_VERSION" >> /cre/versions.txt  
+    echo "$(date +'%F %R') \t creQgis \t $(qgis --help | head -n 1)" >> /cre/versions.txt 
 
 COPY cre /cre
 WORKDIR /cre/
