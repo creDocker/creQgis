@@ -1,7 +1,0 @@
-sut:
-  image: ${IMAGE_NAME}
-  command: /cre/tests/qgis-test.sh
-  volumes:
-    - ./tests:/cre/tests
-
-
