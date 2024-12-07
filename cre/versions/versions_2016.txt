@@ -4,3 +4,4 @@ creBuild 	 2024.12
   OpenSSL 1.0.2g  1 Mar 2016
   Java 	 openjdk version "1.8.0_292"
   Python3 	 Python 3.5.2
+ creQgis 	 QGIS - 2.8.6-Wien 'Wien' (exported)
