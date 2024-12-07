@@ -34,7 +34,7 @@ RUN apt-get install -y -q --no-install-recommends spawn-fcgi
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
 #    echo "$(date +'%F %R') \t creQgis \t $QGIS_VERSION" >> /cre/versions.txt  
-    echo "$(date +'%F %R') \t creQgis \t $(qgis --help | head -n 1)" >> /cre/versions.txt 
+    echo "$(date +'%F %R') \t creQgis \t $(qgis --help 2>&1 | head -n 1)" >> /cre/versions.txt 
 
 COPY cre /cre
 WORKDIR /cre/
