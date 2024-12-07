@@ -6,4 +6,4 @@ creBuild 	 2024.12
   Java 	 openjdk version "17.0.13" 2024-10-15
   Python3 	 Python 3.10.12
    Flask 	 
- creQgis 	 QGIS is a user friendly Open Source Geographic Information System.
+ creQgis 	 QGIS 3.22.4-Białowieża 'Białowieża' (exported)
