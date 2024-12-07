@@ -30,12 +30,12 @@ jobs:
         with:
           file: ./Dockerfile16
           push: true
-          tags: tamboraorg/creqgis:check16
+          tags: credocker/creqgis:check16
 
       -
         name: Test
         run: |
-          docker run tamboraorg/creqgis:check16 /cre/qgis-test.sh  
+          docker run credocker/creqgis:check16 /cre/qgis-test.sh  
       -
         name: Build and push
         id: docker_push
@@ -43,5 +43,5 @@ jobs:
         with:
           file: ./Dockerfile16
           push: true
-          tags: tamboraorg/creqgis:2016.0 
+          tags: credocker/creqgis:2016.0 
 
