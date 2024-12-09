@@ -39,7 +39,8 @@ RUN apt-get install -y -q --no-install-recommends spawn-fcgi xvfb
 RUN mkdir -p /cre && touch /cre/versions.txt && \ 
 #    echo "$(date +'%F %R') \t creQgis \t $QGIS_VERSION" >> /cre/versions.txt  
     echo "$(date +'%F %R') \t creQgis \t $(qgis --version)" >> /cre/versions.txt && \ 
-    echo "$(date +'%F %R') \t  PyQgis \t $(qgis --nologo --code ./qgis_python_version.py)" >> /cre/versions.txt
+    echo "$(date +'%F %R') \t  PyQgis \t $(/usr/lib/cgi-bin/qgis_mapserv.fcgi --version | grep Python)" >> /cre/versions.txt && \ 
+    echo "$(date +'%F %R') \t  PyQgis2 \t $(qgis --nologo --code ./qgis_python_version.py)" >> /cre/versions.txt
 
 
 COPY cre /cre
