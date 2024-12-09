@@ -7,4 +7,5 @@ creBuild 	 2024.12
   Python3 	 Python 3.12.3
    Flask 	 
  creQgis 	 QGIS 3.34.4-Prizren 'Prizren' (exported)
-  PyQgis 	 
+  PyQgis 	 Python version 3.12.2
+  PyQgis2 	 
