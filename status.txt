@@ -4,3 +4,10 @@ Still in prototype status
 Todo:
 =====
 
+
+https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/server.html
+https://towardsdatascience.com/how-to-use-qgis-spatial-algorithms-with-python-scripts-4bf980e39898
+
+
+
+
