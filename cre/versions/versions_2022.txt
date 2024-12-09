@@ -7,3 +7,4 @@ creBuild 	 2024.12
   Python3 	 Python 3.10.12
    Flask 	 
  creQgis 	 QGIS 3.22.4-Białowieża 'Białowieża' (exported)
+  PyQgis 	 Python version 3.10.3
