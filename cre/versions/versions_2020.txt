@@ -6,3 +6,4 @@ creBuild 	 2024.12
   Python3 	 Python 3.8.10
    Flask 	 Flask 3.0.3
  creQgis 	 QGIS 3.10.4-A Coruña 'A Coruña' (exported)
+  PyQgis 	 
