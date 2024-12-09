@@ -5,3 +5,4 @@ creBuild 	 2024.12
   Java 	 openjdk version "1.8.0_292"
   Python3 	 Python 3.5.2
  creQgis 	 QGIS - 2.8.6-Wien 'Wien' (exported)
+  PyQgis 	 
