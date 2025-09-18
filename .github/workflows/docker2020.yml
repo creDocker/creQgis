@@ -44,6 +44,6 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: credocker/creqgis:2020.0, tamboraorg/creqgis:latest 
+          tags: credocker/creqgis:2020.0, credocker/creqgis:latest 
       
 
