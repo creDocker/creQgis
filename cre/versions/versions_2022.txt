@@ -1,10 +1,12 @@
-creBuild 	 2024.12
+creBuild 	 2025.09
  creUbuntu 	 22.04.5 LTS
   UbuntuName 	 jammy
   OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
   msmtp version 1.8.16
-  Java 	 openjdk version "17.0.13" 2024-10-15
+  Java 	 openjdk version "17.0.16" 2025-07-15
   Python3 	 Python 3.10.12
+   numpy 	 2.2.6
+   pandas 	 2.3.2
    Flask 	 
  creQgis 	 QGIS 3.22.4-Białowieża 'Białowieża' (exported)
   PyQgis 	 Python version 3.10.3
