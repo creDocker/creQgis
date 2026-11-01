@@ -1,4 +1,4 @@
-creBuild 	 2026.10
+creBuild 	 2026.11
  creUbuntu 	 24.04.5 LTS
   UbuntuName 	 noble
   OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
@@ -8,7 +8,7 @@ creBuild 	 2026.10
    uv 	 
    uv2 	 
    numpy 	 2.5.4
-   pandas 	 3.0.6
+   pandas 	 3.1.0
    Flask 	 
  creQgis 	 QGIS 3.34.4-Prizren 'Prizren' (exported)
   PyQgis 	 Python version 3.12.2
